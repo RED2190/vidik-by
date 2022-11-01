@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'MB';
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MR';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    background-color: transparent;
+    width: 87.88vw;
+    height: 4.85vw;
+    margin-top: 3.7%;
+    
+}
+.menu{
+    width: 46.3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu a{
+    text-align:justify;
+    align-self: center;
+    font-family: MR;
+    font-size: 0.8vw;
+}
+.logo{
+    margin-left: 1%;
+    margin-right: 63px;
+    width: 6.87vw;
+    height: 4.87vw;
+    align-self: center;
+    margin-left: 4.17vw;
+    margin-right: 3.6vw;
+}
+.header p{
+    font-size: 0.8vw;
+    align-self: center;
+    font-family: MR;
+    font-size: 0.8vw;
+}
+.contakts{
+    margin-left: 2.05vw;
+    align-self: center;
+    font-family: MR;
+    font-size: 0.8vw;
+}
+.number{
+    background: url(img/phone.png);
+    font-family: MB;
+    font-size: 0.91vw;
+    background-size: 1.25vw 1.25vw;
+    padding-left: 1.27vw;
+}
+.location{
+    background: url(img/location.png);
+    background-size: 0.808vw 1.077vw;
+    padding-left: 1.097vw;
+    display: block;
+    margin-top: 0.45vw; 
+    margin-left: 0.2vw;
+}
+.c-i{
+    background-repeat: no-repeat;
+    
+}
+.header .name{
+    margin-top: 1.14vw;
+    margin-left: 0.22vw;
+    margin-right: 1.71vw;
+    font-size: 0.8vw;
+    align-self: flex-start;
+    font-family: MR;
+    font-size: 0.8vw;
+}
+.mes{
+    width: 1.948vw;
+    height: 1.948vw;
+    align-self: center;
+}
+.telegram{
+    margin-left: 0.649vw;
+    margin-right: 0.69vw;
+}
